@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -127,3 +126,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/.gitignore
+.idea/MusicByLinetor.iml
+.idea/codeStyles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+crawlforlastfm/
+
+#config file
+.config
