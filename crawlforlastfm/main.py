@@ -11,7 +11,8 @@ if __name__ == "__main__":
     api_infor["api_key"] = configparser.get('lastfm', 'API_KEY')
     api_infor["api_url"] = configparser.get('lastfm', 'API_URL')
     testApi = LastfmApi(api_infor)
-    print(testApi.getFriendApiTest())
+    print(testApi.getUserIdbyRandomFromMongo())
+    #print(testApi.getFriendApiTest())
 
 
 
